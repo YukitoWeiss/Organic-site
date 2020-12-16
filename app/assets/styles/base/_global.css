@@ -2,3 +2,24 @@ body {
     font-family: 'Lato', sans-serif;
     color: #fff;
 }
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  
+    &--first {
+    height: 66px;
+    z-index: 1;
+  }
+
+    &--second {
+      height: 79px;
+    }
+} 
