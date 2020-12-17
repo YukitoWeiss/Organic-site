@@ -9,6 +9,10 @@ body {
     margin: 0 auto;
 }
 
+.section {
+  padding: 80px 0;
+}
+
 .svg {
   position: absolute;
   bottom: 0;

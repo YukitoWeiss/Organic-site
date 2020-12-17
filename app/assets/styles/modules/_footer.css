@@ -1,0 +1,40 @@
+.footer {
+    background-color: #e87775;
+    padding: 50px 0 220px 0;
+    font-family: Droid Sans; 
+
+    &__inner {
+        display: flex;
+    }
+    &__contacts {
+        width: 28%;
+        text-align-last: left;
+}
+
+    &__links {
+        display: flex;
+        justify-content: space-around;
+        width: 68%;
+    }
+
+    &__title {
+        font-weight: bold;
+        margin-top: 0;
+    }
+
+    ul {
+        list-style: none;
+        font-size: 12px;
+        padding-left: 0;
+        margin-top: 0;
+    }
+
+    li {
+        margin-top: 12px;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+    }
+}
